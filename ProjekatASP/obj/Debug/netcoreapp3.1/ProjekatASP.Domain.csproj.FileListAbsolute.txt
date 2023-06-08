@@ -1,0 +1,12 @@
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\bin\Debug\netcoreapp3.1\ProjekatASP.Domain.deps.json
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\bin\Debug\netcoreapp3.1\ProjekatASP.Domain.dll
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\bin\Debug\netcoreapp3.1\ProjekatASP.Domain.pdb
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\obj\Debug\netcoreapp3.1\ProjekatASP.Domain.csprojAssemblyReference.cache
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\obj\Debug\netcoreapp3.1\ProjekatASP.Domain.AssemblyInfoInputs.cache
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\obj\Debug\netcoreapp3.1\ProjekatASP.Domain.AssemblyInfo.cs
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\obj\Debug\netcoreapp3.1\ProjekatASP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\obj\Debug\netcoreapp3.1\ProjekatASP.Domain.dll
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\obj\Debug\netcoreapp3.1\ProjekatASP.Domain.pdb
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\bin\Debug\netcoreapp3.1\ProjekatASP.Domain.runtimeconfig.json
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\bin\Debug\netcoreapp3.1\ProjekatASP.Domain.runtimeconfig.dev.json
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP\obj\Debug\netcoreapp3.1\ProjekatASP.Domain.genruntimeconfig.cache

@@ -1,0 +1,9 @@
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Application\bin\Debug\netcoreapp3.1\ProjekatASP.Application.deps.json
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Application\bin\Debug\netcoreapp3.1\ProjekatASP.Application.dll
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Application\bin\Debug\netcoreapp3.1\ProjekatASP.Application.pdb
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Application\obj\Debug\netcoreapp3.1\ProjekatASP.Application.csprojAssemblyReference.cache
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Application\obj\Debug\netcoreapp3.1\ProjekatASP.Application.AssemblyInfoInputs.cache
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Application\obj\Debug\netcoreapp3.1\ProjekatASP.Application.AssemblyInfo.cs
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Application\obj\Debug\netcoreapp3.1\ProjekatASP.Application.csproj.CoreCompileInputs.cache
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Application\obj\Debug\netcoreapp3.1\ProjekatASP.Application.dll
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Application\obj\Debug\netcoreapp3.1\ProjekatASP.Application.pdb

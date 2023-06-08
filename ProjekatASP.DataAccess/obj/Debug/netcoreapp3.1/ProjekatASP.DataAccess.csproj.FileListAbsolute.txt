@@ -1,0 +1,15 @@
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\netcoreapp3.1\ProjekatASP.Domain.dll
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\netcoreapp3.1\ProjekatASP.DataAccess.csprojAssemblyReference.cache
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\netcoreapp3.1\ProjekatASP.DataAccess.AssemblyInfoInputs.cache
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\netcoreapp3.1\ProjekatASP.DataAccess.AssemblyInfo.cs
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\netcoreapp3.1\ProjekatASP.DataAccess.deps.json
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\netcoreapp3.1\ProjekatASP.DataAccess.runtimeconfig.json
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\netcoreapp3.1\ProjekatASP.DataAccess.runtimeconfig.dev.json
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\netcoreapp3.1\ProjekatASP.DataAccess.dll
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\netcoreapp3.1\ProjekatASP.DataAccess.pdb
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\netcoreapp3.1\ProjekatASP.Domain.pdb
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\netcoreapp3.1\ProjekatASP.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\netcoreapp3.1\ProjekatASP.DataAccess.csproj.CopyComplete
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\netcoreapp3.1\ProjekatASP.DataAccess.dll
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\netcoreapp3.1\ProjekatASP.DataAccess.pdb
+C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\netcoreapp3.1\ProjekatASP.DataAccess.genruntimeconfig.cache

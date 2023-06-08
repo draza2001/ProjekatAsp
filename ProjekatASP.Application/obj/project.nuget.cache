@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pkw12Epw4Kn1Ajg03Xscua10+zZYVvP+AzNs6ChBnYrflNbp765M4VHSjejC4Ns4p/T5e6N+bcQDJHh6WdksVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Application\\ProjekatASP.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\drago\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\drago\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\drago\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\drago\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
