@@ -10,8 +10,8 @@ using ProjekatASP.DataAccess.Configuration;
 namespace ProjekatASP.DataAccess.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230606203206_initial-migration")]
-    partial class initialmigration
+    [Migration("20230609132720_initialize migration")]
+    partial class initializemigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -46,10 +46,8 @@ namespace ProjekatASP.DataAccess.Migrations
                     b.Property<DateTime?>("ModifiedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("PictureId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Subject")
+                        .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
@@ -60,8 +58,6 @@ namespace ProjekatASP.DataAccess.Migrations
 
                     b.HasIndex("Id")
                         .IsUnique();
-
-                    b.HasIndex("PictureId");
 
                     b.HasIndex("UserId");
 
@@ -183,6 +179,9 @@ namespace ProjekatASP.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("BlogId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
@@ -202,6 +201,8 @@ namespace ProjekatASP.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("BlogId");
 
                     b.ToTable("Pictures");
                 });
@@ -345,15 +346,9 @@ namespace ProjekatASP.DataAccess.Migrations
 
             modelBuilder.Entity("ProjekatASP.Domain.Blog", b =>
                 {
-                    b.HasOne("ProjekatASP.Domain.Picture", "Picture")
-                        .WithMany()
-                        .HasForeignKey("PictureId");
-
                     b.HasOne("ProjekatASP.Domain.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId");
-
-                    b.Navigation("Picture");
 
                     b.Navigation("User");
                 });
@@ -390,6 +385,17 @@ namespace ProjekatASP.DataAccess.Migrations
                     b.Navigation("Blog");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ProjekatASP.Domain.Picture", b =>
+                {
+                    b.HasOne("ProjekatASP.Domain.Blog", "Blog")
+                        .WithMany()
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Blog");
                 });
 
             modelBuilder.Entity("ProjekatASP.Domain.Rate", b =>

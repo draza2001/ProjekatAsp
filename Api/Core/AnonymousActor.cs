@@ -12,7 +12,7 @@ namespace Api.Controllers
 
         public string Identity => "Anonymous";
 
-        public IEnumerable<int> AllowedUseCases => new List<int> { 12, 5, 11, 10, 20 };
+        public IEnumerable<int> AllowedUseCases => new List<int> { 1 };
 
     }
 }

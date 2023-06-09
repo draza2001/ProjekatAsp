@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProjekatASP.Application;
+using ProjekatASP.Application.Commands.Usercommands;
+using ProjekatASP.Application.DataTransfer;
 using ProjekatASP.Application.Queries.User;
 using ProjekatASP.Application.Searches;
 using ProjekatASP.Application.Util;
@@ -34,27 +36,28 @@ namespace Api.Controllers
 
         // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id,[FromServices] IGetOneUserQuery query)
         {
-            return "value";
+            return Ok(executor.ExecuteQuery(query, id));
         }
 
-        // POST api/<UserController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+  
 
         // PUT api/<UserController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] UserDTO dto,[FromServices] IUpdateUserCommand command)
         {
+            executor.ExecuteCommandUpdate(command, dto, id);
+            return NoContent();
         }
 
         // DELETE api/<UserController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id,[FromServices] IDeleteUserCommand command)
         {
+            executor.ExecuteCommand(command, id);
+            return NoContent();
         }
+        
     }
 }

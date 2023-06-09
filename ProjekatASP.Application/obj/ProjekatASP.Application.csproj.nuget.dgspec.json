@@ -33,7 +33,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

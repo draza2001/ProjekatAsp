@@ -1,11 +1,12 @@
-﻿using System;
+﻿using ProjekatASP.Application.Util;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Api.Core
 {
-    public class JwtActor
+    public class JwtActor : IApplicationActor
     {
         public int Id { get; set; }
         public string Identity { get; set; }

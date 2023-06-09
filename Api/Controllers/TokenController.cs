@@ -1,7 +1,9 @@
 ﻿using Api.Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -31,6 +33,7 @@ namespace Api.Controllers
             }
             return Ok(new { token });
         }
+   
         public class LoginRequest
         {
             public string Username { get; set; }

@@ -12,14 +12,20 @@ namespace ProjekatASP.Implementation.Queries
 {
     public class EfGetUsersQuery : IGetUserQuery
     {
-        private readonly Context context;
-        public int Id => 14;
+        private readonly Context _context;
+
+        public EfGetUsersQuery(Context context)
+        {
+            this._context = context;
+        }
+
+        public int Id => 2;
 
         public string Name => "Get users";
 
         public PagedResponse<UserDTO> Execute(UserSearch search)
         {
-            var query = context.Users.AsQueryable();
+            var query = _context.Users.AsQueryable();
 
             if (!string.IsNullOrEmpty(search.Username) || !string.IsNullOrWhiteSpace(search.Username))
             {
@@ -35,7 +41,7 @@ namespace ProjekatASP.Implementation.Queries
                 Items = query.Skip(skipCount).Take(search.PerPage).Select(x => new UserDTO
                 {
                     FirstName = x.FirstName,
-                    LstName = x.LastName,
+                    LastName = x.LastName,
                     UserName = x.UserName,
                     Email = x.Email
                 }).ToList()

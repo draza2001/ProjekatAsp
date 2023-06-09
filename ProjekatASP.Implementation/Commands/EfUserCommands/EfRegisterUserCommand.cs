@@ -25,7 +25,7 @@ namespace ProjekatASP.Implementation
             _sender = sender;
         }
 
-        public int Id => 12;
+        public int Id => 1;
 
         public string Name => "User registration";
 
@@ -40,11 +40,12 @@ namespace ProjekatASP.Implementation
                 {
                     UserUseCaseId = uucId
                 };
+                usecases.Add(userUseCase);
             }
             _context.Users.Add(new Domain.User
             {
                 FirstName=request.FirstName,
-                LastName=request.LstName,
+                LastName=request.LastName,
                 UserName=request.UserName,
                 Password=request.Password,
                 Email=request.Email,

@@ -1577,6 +1577,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.17"
         },
         "compile": {
@@ -1605,11 +1606,6 @@
       "ProjekatASP.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.17",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
-        },
         "compile": {
           "bin/placeholder/ProjekatASP.Domain.dll": {}
         },
@@ -6034,10 +6030,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.32",
       "ProjekatASP.Application >= 1.0.0",
       "ProjekatASP.DataAccess >= 1.0.0",
-      "ProjekatASP.Domain >= 1.0.0",
       "ProjekatASP.Implementation >= 1.0.0"
     ]
   },
@@ -6082,11 +6078,11 @@
             "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.DataAccess\\ProjekatASP.DataAccess.csproj": {
               "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.DataAccess\\ProjekatASP.DataAccess.csproj"
             },
+            "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj"
+            },
             "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj": {
               "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj"
-            },
-            "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP\\ProjekatASP.Domain.csproj": {
-              "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP\\ProjekatASP.Domain.csproj"
             }
           }
         }
@@ -6127,5 +6123,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
