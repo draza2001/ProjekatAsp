@@ -45,6 +45,9 @@
               },
               "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj": {
                 "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP\\ProjekatASP.Domain.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP\\ProjekatASP.Domain.csproj"
               }
             }
           }
@@ -115,11 +118,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj": {
-                "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -185,11 +184,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP\\ProjekatASP.Domain.csproj": {
-                "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP\\ProjekatASP.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -364,6 +359,32 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -25,7 +25,6 @@ using ProjekatASP.Implementation.Emails;
 using ProjekatASP.Implementation.Log;
 using ProjekatASP.Implementation.Queries;
 using ProjekatASP.Implementation.Queries.Blog;
-using ProjekatASP.Implementation.Queries.Category;
 using ProjekatASP.Implementation.Queries.User;
 using ProjekatASP.Implementation.Validators;
 using ProjekatASP.Implementation.Validators.ArticleValidators;

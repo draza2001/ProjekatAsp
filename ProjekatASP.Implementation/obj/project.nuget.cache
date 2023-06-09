@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "kojpMJE0/+cYGQOKQzUiVpaXvYonEO27n8RidslEIn4j0j8X82wxOZTXOeazGymfwAu+BdjiF+J8EzpxL/9rTA==",
-  "success": false,
+  "dgSpecHash": "Kt38Rb+jE/y0y+Ml2nG3zWTtY5RMP3iVaNkFP0Q1Hy1MYe5o0VAfj70PO0lrSE75HM/m2XeY/fULhJ1HSKqp1w==",
+  "success": true,
   "projectFilePath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drago\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
@@ -105,15 +105,5 @@
     "C:\\Users\\drago\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\drago\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

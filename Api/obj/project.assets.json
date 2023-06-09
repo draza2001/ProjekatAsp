@@ -1577,7 +1577,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.17"
         },
         "compile": {
@@ -1593,8 +1592,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
-          "ProjekatASP.Domain": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
         "compile": {
           "bin/placeholder/ProjekatASP.DataAccess.dll": {}
@@ -1606,6 +1604,11 @@
       "ProjekatASP.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
         "compile": {
           "bin/placeholder/ProjekatASP.Domain.dll": {}
         },
@@ -6034,6 +6037,7 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.32",
       "ProjekatASP.Application >= 1.0.0",
       "ProjekatASP.DataAccess >= 1.0.0",
+      "ProjekatASP.Domain >= 1.0.0",
       "ProjekatASP.Implementation >= 1.0.0"
     ]
   },
@@ -6083,6 +6087,9 @@
             },
             "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj": {
               "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj"
+            },
+            "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP\\ProjekatASP.Domain.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP\\ProjekatASP.Domain.csproj"
             }
           }
         }

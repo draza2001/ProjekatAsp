@@ -1149,11 +1149,6 @@
         }
       },
       "ProjekatASP.Domain/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.17",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
-        },
         "runtime": {
           "ProjekatASP.Domain.dll": {}
         }

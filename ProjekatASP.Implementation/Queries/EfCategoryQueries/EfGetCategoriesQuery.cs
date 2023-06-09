@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ProjekatASP.Implementation.Queries.Category
+namespace ProjekatASP.Implementation.Queries
 {
     public class EfGetCategoriesQuery : IGetCategoriesQuery
     {
