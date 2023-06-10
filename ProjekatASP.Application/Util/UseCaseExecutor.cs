@@ -44,5 +44,14 @@ namespace ProjekatASP.Application
             }
             command.Execute(request, id);
         }
+        public void ExecuteCommandComment<TRequest>(ICommandWithInt<TRequest, int> command, TRequest request, int id)
+        {
+            logger.Log(command, actor, request);
+            if (!actor.AllowedUseCases.Contains(command.Id))
+            {
+                throw new UnauthorizedUseCaseExceptiion(command, actor);
+            }
+            command.Execute(request, id);
+        }
     }
 }

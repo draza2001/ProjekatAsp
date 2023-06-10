@@ -11,20 +11,34 @@ namespace ProjekatASP.Implementation.Emails
     {
         public void Send(SendEmailDTO dto)
         {
-            var smtp = new SmtpClient
-            {
-                Host = "smtp.gmail.com",
-                Port = 465,
-                EnableSsl = true,
-                DeliveryMethod = SmtpDeliveryMethod.Network,
-                UseDefaultCredentials = false,
-                Credentials = new NetworkCredential("aspdragoljubproject@gmail.com", "Password123!")
-            };
-            var message = new MailMessage("aspdragoljubproject@gmail.com", dto.SendTo);
-            message.Subject = dto.Subject;
-            message.Body = dto.Content;
-            message.IsBodyHtml = true;
-            smtp.Send(message);
+
+            
+                string email = dto.SendTo;
+                string subject = dto.Subject;
+                string message =dto.Content;
+
+                MailMessage mail = new MailMessage();
+                mail.From = new MailAddress("dragoljub.ciric2001@gmail.com");
+                mail.To.Add(email);
+                mail.Subject = subject;
+                mail.Body = message;
+                mail.IsBodyHtml = true;
+
+                SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
+                smtpClient.UseDefaultCredentials = false;
+                smtpClient.EnableSsl = true;
+                smtpClient.Credentials = new NetworkCredential("dragoljub.ciric2001@gmail.com", "jjxlwhfgzznqtjpx");
+
+                try
+                {
+                    smtpClient.Send(mail);
+                    Console.WriteLine("Email sent successfully.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("An error occurred while sending the email: " + ex.Message);
+               }
+            
         }
     }
 }

@@ -8,6 +8,6 @@ namespace ProjekatASP.Application.DataTransfer
     {
         public int RateNumber { get; set; }
         public int UserId { get; set; }
-        public int ArticleId { get; set; }
+        public int BlogId { get; set; }
     }
 }

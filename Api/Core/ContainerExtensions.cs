@@ -8,23 +8,28 @@ using ProjekatASP.Application;
 using ProjekatASP.Application.Commands;
 using ProjekatASP.Application.Commands.Blogcommands;
 using ProjekatASP.Application.Commands.CategoryCommands;
+using ProjekatASP.Application.Commands.CommentCommands;
 using ProjekatASP.Application.Commands.Usercommands;
 using ProjekatASP.Application.DataTransfer;
 using ProjekatASP.Application.Emails;
 using ProjekatASP.Application.Queries;
 using ProjekatASP.Application.Queries.BlogQuery;
 using ProjekatASP.Application.Queries.CategoryQuery;
+using ProjekatASP.Application.Queries.CommentQuery;
 using ProjekatASP.Application.Queries.User;
 using ProjekatASP.Application.Util;
 using ProjekatASP.DataAccess.Configuration;
 using ProjekatASP.Implementation;
+using ProjekatASP.Implementation.Commands;
 using ProjekatASP.Implementation.Commands.EfBlogCommands;
 using ProjekatASP.Implementation.Commands.EfCategoryCommand;
+using ProjekatASP.Implementation.Commands.EfCommentCommads;
 using ProjekatASP.Implementation.Commands.EfUserCommands;
 using ProjekatASP.Implementation.Emails;
 using ProjekatASP.Implementation.Log;
 using ProjekatASP.Implementation.Queries;
-using ProjekatASP.Implementation.Queries.Blog;
+using ProjekatASP.Implementation.Queries.EfBlogQueries;
+using ProjekatASP.Implementation.Queries.EfCommentQueries;
 using ProjekatASP.Implementation.Queries.User;
 using ProjekatASP.Implementation.Validators;
 using ProjekatASP.Implementation.Validators.ArticleValidators;
@@ -56,10 +61,22 @@ namespace Api.Core
 
 			services.AddTransient<ICreateBlogCommand, EfCreateBlogCommand>();
 			services.AddTransient<IGetBlogsQuery, EfGetBlogsQuery>();
+			services.AddTransient<IGetBlogQuery, EfGetBlogQuery>();
+			services.AddTransient<IUpdateBlogCommand, EfUpdateBlogCommand>();
+			services.AddTransient<IDeleteBlogCommand, EfDeleteBlogCommand>();
+
+			services.AddTransient<IGetCommentsQuery, EfGetCommentsQuery>();
+			services.AddTransient<ICreateCommentCommand, EfCreateCommentCommand>();
+			services.AddTransient<IUpdateCommentCommand,EfUpdateCommentCommand>();
+			services.AddTransient<IDeleteCommentCommand, EfDeleteCommentCommand>();
+
+			services.AddTransient<IRateBlog, EfRateBlogCommand>();
 
 			services.AddTransient<ICreateCategoryCommand, EfCreateCategoryCommand>();
 			services.AddTransient<IGetCategoriesQuery, EfGetCategoriesQuery>();
 			services.AddTransient<IGetCategoryQuery,EfGetCategoryQuery >();
+			services.AddTransient<IUpdateCategoryCommand, EfUpdateCategoryCommand>();
+			services.AddTransient<IDeleteCategoryCommand,EfDeleteCategoryCommand>();
 
             services.AddTransient<IUseCaseLogger,DatabaseUseCaseLogger >();
 

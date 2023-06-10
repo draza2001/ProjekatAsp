@@ -16,6 +16,11 @@ namespace ProjekatASP.Application.Util
     {
         void Execute(TRequest request,TInt id);
     }
+    public interface ICommandWithInt<TRequest, TInt> : IUseCase
+    {
+        void Execute(TRequest request, TInt id);
+    }
+
 
 
     public interface IUseCase

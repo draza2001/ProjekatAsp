@@ -6,15 +6,17 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.32" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
-    <ProjectReference Include="..\ProjekatASP\ProjekatASP.Domain.csproj" />
-
 	<ItemGroup>
-		<ProjectReference Include="..\ProjekatASP.Application\AspProjekat.Application.csproj" />
-		<ProjectReference Include="..\ProjekatASP.DataAccess\AspProjekat.DataAccess.csproj" />
-		<ProjectReference Include="..\ProjekatASP.Domain\AspProjekat.Domain.csproj" />
-		<ProjectReference Include="..\ProjekatASP.Implementation\AspProjekat.Implementation.csproj" />
+		<ProjectReference Include="..\ProjekatASP.Application\ProjekatASP.Application.csproj" />
+		<ProjectReference Include="..\ProjekatASP.DataAccess\ProjekatASP.DataAccess.csproj" />
+		<ProjectReference Include="..\ProjekatASP.Implementation\ProjekatASP.Implementation.csproj" />
+		<ProjectReference Include="..\ProjekatASP\ProjekatASP.Domain.csproj" />
 	</ItemGroup>
+
+
+
 
 </Project>

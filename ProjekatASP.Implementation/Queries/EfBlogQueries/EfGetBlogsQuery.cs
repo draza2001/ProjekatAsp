@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ProjekatASP.Implementation.Queries.Blog
+namespace ProjekatASP.Implementation.Queries.EfBlogQueries
 {
     public class EfGetBlogsQuery : IGetBlogsQuery
     {
@@ -33,6 +33,7 @@ namespace ProjekatASP.Implementation.Queries.Blog
             }
             query = query.Where(x => x.IsActive == true);
 
+
             var skipCount = search.PerPage * (search.Page - 1);
 
             var response = new PagedResponse<BlogDTO>
@@ -44,7 +45,7 @@ namespace ProjekatASP.Implementation.Queries.Blog
                 {
                     Id = x.Id,
                     Subject = x.Subject,
-                    Description = x.Description
+                    Description = x.Description,
                 }).ToList()
             };
             foreach(var blog in response.Items)
@@ -58,10 +59,11 @@ namespace ProjekatASP.Implementation.Queries.Blog
                 {
                     Src = p.Src
                 }).ToList();
-
+     
                 
                 
             }
+
             return response;
         }
     }

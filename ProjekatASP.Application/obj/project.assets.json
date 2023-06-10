@@ -44,6 +44,16 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "ProjekatASP.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ProjekatASP.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjekatASP.Domain.dll": {}
+        }
       }
     }
   },
@@ -146,11 +156,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ProjekatASP.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ProjekatASP/ProjekatASP.Domain.csproj",
+      "msbuildProject": "../ProjekatASP/ProjekatASP.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.AspNetCore.Http.Features >= 5.0.17"
+      "Microsoft.AspNetCore.Http.Features >= 5.0.17",
+      "ProjekatASP.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -187,7 +203,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP\\ProjekatASP.Domain.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\ProjekatASP\\ProjekatASP\\ProjekatASP.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

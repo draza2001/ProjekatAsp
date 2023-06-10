@@ -51,14 +51,18 @@ namespace Api.Controllers
 
         // PUT api/<CategoryController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] CategoryDTO dto,[FromServices] IUpdateCategoryCommand command)
         {
+            executor.ExecuteCommandUpdate(command, dto,id);
+            return NoContent();
         }
 
         // DELETE api/<CategoryController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id,[FromServices] IDeleteCategoryCommand command)
         {
+            executor.ExecuteCommand(command, id);
+            return NoContent();
         }
     }
 }

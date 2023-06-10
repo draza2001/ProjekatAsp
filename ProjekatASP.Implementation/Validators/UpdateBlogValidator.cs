@@ -13,7 +13,7 @@ namespace ProjekatASP.Implementation.Validators.BlogValidators
         {
             RuleFor(x => x.Subject).NotEmpty().NotNull().WithMessage("Subject must be filled.");
             RuleFor(x => x.Description).NotEmpty().NotNull().WithMessage("Subject must be filled.");
-            RuleFor(x => x.Categories).NotNull().WithMessage("Categories must be selected");
+            RuleFor(x => x.CategoryIds).NotNull().WithMessage("Categories must be selected");
         }
     }
 }

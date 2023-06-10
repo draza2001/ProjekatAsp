@@ -33,9 +33,9 @@ namespace Api.Controllers
 
         // GET api/<BlogController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id,[FromServices] IGetBlogQuery command)
         {
-            return "value";
+            return Ok(executor.ExecuteQuery(command,id));
         }
 
         // POST api/<BlogController>
@@ -48,14 +48,18 @@ namespace Api.Controllers
 
         // PUT api/<BlogController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] BlogDTO dto,[FromServices] IUpdateBlogCommand command)
         {
+            executor.ExecuteCommandUpdate(command, dto, id);
+                return NoContent();
         }
 
         // DELETE api/<BlogController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id,[FromServices] IDeleteBlogCommand command)
         {
+            executor.ExecuteCommand(command, id);
+            return NoContent();
         }
     }
 }

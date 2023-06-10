@@ -14,3 +14,19 @@ C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Implementation\obj\Debug\net
 C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Implementation\obj\Debug\netcoreapp3.1\ProjekatASP.Implementation.csproj.CopyComplete
 C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Implementation\obj\Debug\netcoreapp3.1\ProjekatASP.Implementation.dll
 C:\Users\drago\source\repos\ProjekatASP\ProjekatASP.Implementation\obj\Debug\netcoreapp3.1\ProjekatASP.Implementation.pdb
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\obj\Debug\netcoreapp3.1\ProjekatASP.Implementation.dll
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\obj\Debug\netcoreapp3.1\ProjekatASP.Implementation.pdb
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\bin\Debug\netcoreapp3.1\ProjekatASP.Implementation.deps.json
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\bin\Debug\netcoreapp3.1\ProjekatASP.Implementation.dll
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\bin\Debug\netcoreapp3.1\ProjekatASP.Implementation.pdb
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\bin\Debug\netcoreapp3.1\ProjekatASP.Application.dll
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\bin\Debug\netcoreapp3.1\ProjekatASP.DataAccess.dll
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\bin\Debug\netcoreapp3.1\ProjekatASP.Domain.dll
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\bin\Debug\netcoreapp3.1\ProjekatASP.Application.pdb
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\bin\Debug\netcoreapp3.1\ProjekatASP.DataAccess.pdb
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\bin\Debug\netcoreapp3.1\ProjekatASP.Domain.pdb
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\obj\Debug\netcoreapp3.1\ProjekatASP.Implementation.csprojAssemblyReference.cache
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\obj\Debug\netcoreapp3.1\ProjekatASP.Implementation.AssemblyInfoInputs.cache
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\obj\Debug\netcoreapp3.1\ProjekatASP.Implementation.AssemblyInfo.cs
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\obj\Debug\netcoreapp3.1\ProjekatASP.Implementation.csproj.CoreCompileInputs.cache
+C:\Users\drago\OneDrive\Radna površina\ProjekatAsp-master\ProjekatASP.Implementation\obj\Debug\netcoreapp3.1\ProjekatASP.Implementation.csproj.CopyComplete

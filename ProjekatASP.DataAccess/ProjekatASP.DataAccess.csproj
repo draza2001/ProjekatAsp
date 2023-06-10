@@ -19,6 +19,10 @@
     </PackageReference>
   </ItemGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\ProjekatASP\ProjekatASP.Domain.csproj" />
+	</ItemGroup>
+
 
 
 </Project>
