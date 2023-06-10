@@ -27,14 +27,14 @@ namespace Api.Controllers
 
         // POST api/<UploadController>
         [HttpPost("{blogId}")]
-        public IActionResult Post([FromBody] PicturesDTO dto, int blogId)
+        public IActionResult Post([FromForm] PicturesDTO dto, int blogId)
         {
             var guid = Guid.NewGuid();
             var extension = Path.GetExtension(dto.Image.FileName);
 
             var newFileName = guid + extension;
 
-            var path = Path.Combine("wwwroot", "images", newFileName);
+            var path = Path.Combine("wwwroot", "Images", newFileName);
 
             using (var fileStream = new FileStream(path, FileMode.Create))
             {
